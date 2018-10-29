@@ -15,11 +15,13 @@
 
   <body>
       <div class="bg-light">
-      <nav class="navbar navbar-expand-sm container navbar-light">
-    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Fødevarestyrelsens logo" class="logo-big"><div class="d-flex"><img src="img/logo-mini.png" alt="Fødevarestyrelsens logo" class="logo-small"><img src="img/logo-text.png" alt="Fødevarestyrelsens logo" class="logo-small-text"></div></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <nav class="navbar navbar-expand-sm container d-flex justify-content-between navbar-light">
+          <div>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Fødevarestyrelsens logo" class="logo-big"><div class="d-flex"><img src="img/logo-mini.png" alt="Fødevarestyrelsens logo" class="logo-small"><img src="img/logo-text.png" alt="Fødevarestyrelsens logo" class="logo-small-text"></div></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
           <li class="nav-item dropdown">
@@ -101,7 +103,6 @@
     Dit erhverv
   </a>
   <div class="dropdown-menu">
-      <span class="dropdown-item-text">Dit erhverv - find det du søger</span>
       <a class="dropdown-item" href="#">Detailvirksomhed</a>
       <a class="dropdown-item" href="#">Engrosvirksomhed</a>
       <a class="dropdown-item" href="#">Kædevirksomhed</a>
@@ -118,9 +119,15 @@
       <a class="dropdown-item" href="#">Muslingehøstere</a>
   </div>
 </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Søg</a>
-        </li>
+    <li class="nav-item dropdown position-static">
+    <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Søg</a>
+    <div class="dropdown-menu w-100">
+        <div class="d-flex">
+            <input type="text" class="form-control" placeholder="Søg">
+            <button type="button" class="btn btn-light">Søg</button>
+        </div>
+    </div>
+    </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Min side</a>
         </li>
@@ -129,45 +136,47 @@
   </nav>
 </div>
 
-  <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <h6>Adresse</h6>
-      <h6>Stationsparken 31-33</h6>
-      <h6>2600 Glostrup</h6>
-      <h6>Kontakt</h6>
-      <h6>Fødevarestyrelsens EAN-numre</h6>
-      <h6>Betaling til Fødevarestyrelsen</h6>
-      <h6>CVR: 62534516</h6>
+  <footer class="fluid bg-light">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h6>Adresse</h6>
+              <h6 class="font-weight-normal">Stationsparken 31-33</h6>
+              <h6 class="font-weight-normal">2600 Glostrup</h6>
+              <h6 class="font-weight-normal">Kontakt</h6>
+              <h6 class="font-weight-normal">Fødevarestyrelsens EAN-numre</h6>
+              <h6 class="font-weight-normal">Betaling til Fødevarestyrelsen</h6>
+              <h6 class="font-weight-normal">CVR: 62534516</h6>
+            </div>
+            <div class="col-sm">
+              <h6>Åbningstider</h6>
+              <h6 class="font-weight-normal">Mandag: 9.00 - 16.00</h6>
+              <h6 class="font-weight-normal">Tirsdag: 9.00 - 16.00</h6>
+              <h6 class="font-weight-normal">Onsdag: 9.00 - 16.00</h6>
+              <h6 class="font-weight-normal">Torsdag: 9.00 - 16.00</h6>
+              <h6 class="font-weight-normal">Fredag: 9.00 - 15.00</h6>
+            </div>
+            <div class="col-sm">
+              <h6>Ofte besøgte sider</h6>
+              <h6 class="font-weight-normal">Ny virksomhed/ejerskifte</h6>
+              <h6 class="font-weight-normal">Risikoanalyse - Udfyld blanket</h6>
+              <h6 class="font-weight-normal">Egenkontrol</h6>
+              <h6 class="font-weight-normal">Indretning af køkkener</h6>
+              <h6 class="font-weight-normal">Rejse med kæledyr</h6>
+              <h6 class="font-weight-normal">Forbrugerklage</h6>
+              <h6 class="font-weight-normal">Tilbagetrukne fødevarer</h6>
+              <h6 class="font-weight-normal">Selvbetjening</h6>
+            </div>
+            <div class="col-sm">
+              <h6>Følg os</h6>
+              <h6 class="font-weight-normal">Facebook</h6>
+              <h6 class="font-weight-normal">Twitter</h6>
+              <h6 class="font-weight-normal">Nyhedsbrev</h6>
+              <h6 class="font-weight-normal">RSS Nyheder</h6>
+            </div>
+          </div>
     </div>
-    <div class="col-sm">
-      <h6>Åbningstider</h6>
-      <h6>Mandag: 9.00 - 16.00</h6>
-      <h6>Tirsdag: 9.00 - 16.00</h6>
-      <h6>Onsdag: 9.00 - 16.00</h6>
-      <h6>Torsdag: 9.00 - 16.00</h6>
-      <h6>Fredag: 9.00 - 15.00</h6>
-    </div>
-    <div class="col-sm">
-      <h6>Ofte besøgte sider</h6>
-      <h6>Ny virksomhed/ejerskifte</h6>
-      <h6>Risikoanalyse - Udfyld blanket</h6>
-      <h6>Egenkontrol</h6>
-      <h6>Indretning af køkkener</h6>
-      <h6>Rejse med kæledyr</h6>
-      <h6>Forbrugerklage</h6>
-      <h6>Tilbagetrukne fødevarer</h6>
-      <h6>Selvbetjening</h6>
-    </div>
-    <div class="col-sm">
-      <h6>Følg os</h6>
-      <h6>Facebook</h6>
-      <h6>Twitter</h6>
-      <h6>Nyhedsbrev</h6>
-      <h6>RSS Nyheder</h6>
-    </div>
-  </div>
-</div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

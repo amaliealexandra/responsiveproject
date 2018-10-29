@@ -2,6 +2,12 @@
     display: none;
 }
 
+footer{
+    background: url("../img/bg-crown.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
 @media screen and (max-width: 576px){
     .logo-small, .logo-small-text{
         display: block;
