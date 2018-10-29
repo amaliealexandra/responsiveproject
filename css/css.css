@@ -1,0 +1,24 @@
+.logo-small, .logo-small-text{
+    display: none;
+}
+
+footer{
+    background: url("../img/bg-crown.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+@media screen and (max-width: 576px){
+    .logo-small, .logo-small-text{
+        display: block;
+    }
+    .logo-big{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .logo-small-text{
+        display: none;
+    }
+}
