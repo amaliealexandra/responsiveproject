@@ -2,11 +2,14 @@
     display: none;
 }
 
-footer{
+body{
     background: url("../img/bg-crown.png");
     background-repeat: no-repeat;
-    background-position: right; 
+    background-position: right bottom;
+    background-color: #f8f9fa;
 }
+
+
 
 @media screen and (max-width: 576px){
     .logo-small, .logo-small-text{
