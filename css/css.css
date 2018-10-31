@@ -9,8 +9,6 @@ body{
     background-color: #f8f9fa;
 }
 
-
-
 @media screen and (max-width: 576px){
     .logo-small, .logo-small-text{
         display: block;
