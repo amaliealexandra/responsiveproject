@@ -18,6 +18,24 @@ a:hover{
     font-style: italic;
 }
 
+.assitance {
+  float: right;
+  margin-right: 11%;
+}
+
+.artikel-dato {
+  border-bottom: solid black 1px;
+  margin-right: 11%;
+}
+
+.artikel-content {
+  margin-right: 15%;
+}
+
+#artikel-billede {
+  max-width: 50%;
+}
+
 @media screen and (max-width: 576px){
     .logo-small, .logo-small-text{
         display: block;
