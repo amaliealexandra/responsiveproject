@@ -15,7 +15,10 @@ a{
 a:hover{
     color: #000;
     text-decoration: none;
-    font-style: italic;
+}
+
+.hover:hover{
+    background: #d6d6d6;
 }
 
 .assitance {
