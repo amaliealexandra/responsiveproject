@@ -9,6 +9,15 @@ body{
     background-color: #f8f9fa;
 }
 
+a{
+    color: #000;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+    font-style: italic;
+}
+
 @media screen and (max-width: 576px){
     .logo-small, .logo-small-text{
         display: block;
